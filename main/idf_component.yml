@@ -1,0 +1,5 @@
+dependencies:
+  esp_littlefs:
+    git: https://github.com/joltwallet/esp_littlefs.git
+  esp32-cf:
+    git: https://github.com/melvinvoetberg/esp32-cf.git

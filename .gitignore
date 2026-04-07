@@ -1,0 +1,4 @@
+.pio/
+.env
+managed_components/
+sdkconfig.*

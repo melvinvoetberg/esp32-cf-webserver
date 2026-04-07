@@ -1,0 +1,31 @@
+dependencies:
+  esp32-cf:
+    component_hash: 94c681ce3a891aeb04fb69f0ecd3be7350987baffb4a2ba0b8b6bafa9057ae03
+    dependencies:
+    - name: idf
+      version: '>=5.0'
+    source:
+      git: https://github.com/melvinvoetberg/esp32-cf.git
+      path: .
+      type: git
+    version: ec14a4cc58d344c2f5422991f628b7a771413a42
+  esp_littlefs:
+    component_hash: 20d6915e98bd0ca7e1d536200f9533a86532f115cb364cb1f75ce1a7d10025c5
+    dependencies:
+    - name: idf
+      version: '>=5.0'
+    source:
+      git: https://github.com/joltwallet/esp_littlefs.git
+      path: .
+      type: git
+    version: 509339f463f7b6019db0a45569582ea430da3163
+  idf:
+    source:
+      type: idf
+    version: 5.5.0
+direct_dependencies:
+- esp32-cf
+- esp_littlefs
+manifest_hash: b2ac0e3b11ec86c65ccc9023674126aed4f52c00eb634ee88f675d3ace7b1245
+target: esp32c6
+version: 2.0.0
